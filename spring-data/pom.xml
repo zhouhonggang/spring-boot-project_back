@@ -21,6 +21,9 @@
         <module>spring-boot-mybatis-plus</module>
         <!-- springboot整合jpa hibernate -->
         <module>spring-boot-jpa</module>
+        <!-- springboot整合NoSQL redis -->
+        <module>spring-boot-redis</module>
+        <module>spring-boot-mongodb</module>
     </modules>
 
 
