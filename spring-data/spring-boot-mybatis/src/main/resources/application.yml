@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/javakc?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+        username: root
+        password: 123456
+mybatis:
+    #mapper文件路径
+    mapper-locations: classpath:/mapper/*.xml
+    #对象别名扫描包路径
+    type-aliases-package: com.zhou.javakc.data.mybatis.*.entity
+    configuration:
+        #开启驼峰命名规则自动转换
+        map-underscore-to-camel-case: true

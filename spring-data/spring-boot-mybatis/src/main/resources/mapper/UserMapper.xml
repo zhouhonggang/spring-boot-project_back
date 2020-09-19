@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhou.javakc.data.mybatis.user.dao.UserDao">
+
+    <insert id="insertXML" parameterType="User">
+        insert into spring_boot_user(user_name, user_age, user_birthday, user_address)
+            values(#{userName}, #{userAge}, #{userBirthday}, #{userAddress})
+    </insert>
+
+    <select id="findByPageXML" resultType="User">
+        select user_id, user_name, user_age, user_birthday, user_address from spring_boot_user limit #{start}, #{size}
+    </select>
+
+</mapper>
