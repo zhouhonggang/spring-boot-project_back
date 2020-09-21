@@ -27,6 +27,8 @@
         <module>spring-boot-mongodb</module>
         <!-- springboot整合NoSQL ElasticSearch -->
         <module>spring-boot-elasticsearch</module>
+        <!-- springboot整合GDBMS Neo4j -->
+        <module>spring-boot-neo4j</module>
     </modules>
 
 </project>
