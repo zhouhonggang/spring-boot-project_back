@@ -16,6 +16,9 @@
     │   ├── spring-boot-mybatis-plus (MybatisPlus整合)
     │   ├── spring-boot-jpa (SpringDataJPA整合)
     │   │─────────────华丽的分割线───────────────
+    │   ├── spring-boot-elasticsearch (ElasticSearch整合)
+    │   ├── spring-boot-neo4j (Neo4j整合)
+    │   │─────────────华丽的分割线───────────────
     │   ├── spring-boot-mybatis-mongodb (MongoDB整合)
     │   └── spring-boot-mybatis-redis (Redis整合)
     ├── pom.xml
